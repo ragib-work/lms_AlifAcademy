@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class CoursesConfig(AppConfig):
+class RewardsConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "courses"
+    name = "apps.rewards"
