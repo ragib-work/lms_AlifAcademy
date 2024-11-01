@@ -6,6 +6,8 @@ django-environ
 django-filter
 django-admin-interface
 
+python-decouple
+
 # Database
 psycopg[binary]
 dj-database-url
