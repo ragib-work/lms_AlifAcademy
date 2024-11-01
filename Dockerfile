@@ -47,8 +47,8 @@ RUN chown -R django:django /app
 # Switch to non-root user
 USER django
 
-# Expose port (Railway will override this)
-EXPOSE 8000
+# # Expose port (Railway will override this)
+# EXPOSE 8000
 
 # Use gunicorn as the production WSGI server
-CMD ["gunicorn", "--bind", "0.0.0.0:$PORT", "your_project_name.wsgi:application"]
+CMD ["sh", "-c", "gunicorn --bind 0.0.0.0:$PORT core.wsgi:application"]
