@@ -1,0 +1,32 @@
+-r base.txt
+
+# Debugging
+ipdb
+django-debug-toolbar
+django-extensions
+
+# Testing
+pytest
+pytest-django
+pytest-cov
+pytest-mock
+factory-boy
+faker
+
+# Code Quality
+black
+flake8
+isort
+mypy
+django-stubs
+djangorestframework-stubs
+pre-commit
+
+# Documentation
+Sphinx
+sphinx-rtd-theme
+doc8
+
+# Development Tools
+django-browser-reload
+watchdog

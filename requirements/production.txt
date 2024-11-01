@@ -1,0 +1,23 @@
+-r base.txt
+
+# Production-specific packages
+django-storages[s3]
+django-anymail[sendgrid]
+django-maintenance-mode
+
+# Monitoring & Logging
+newrelic
+django-prometheus
+elastic-apm
+
+# Security
+django-stronghold
+django-admin-honeypot
+
+# Performance
+django-cachalot
+django-compression-middleware
+
+# Railway.app specific
+dj-railway
+python-dotenv

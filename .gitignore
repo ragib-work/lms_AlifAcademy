@@ -1,0 +1,128 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+static/
+
+# Django Environment Variables
+.env
+.env.local
+.env.*
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtualenv
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# IDE - PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+
+# IDE - Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Databases
+*.sqlite3
+*.db
+*.rdb
+
+# Cache and temp files
+*.swp
+*.swo
+*~
+.DS_Store
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
+.python-version
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+
+# Frontend
+node_modules/
+bower_components/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Local development
+local/
+.local/
+*.local
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.mo
+
+# Project specific
+/static_root/
+/media_root/
+/logs/
+celerybeat-schedule
+celerybeat.pid
